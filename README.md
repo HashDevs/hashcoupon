@@ -1,15 +1,15 @@
 === HashCoupon ===
-Contributors: Hashcrypt Technology
-Tags: woo-commerce,woo-commerce coupons,checkout coupons,woo-commerce coupons UI
-Requires at least: 4.7
-Tested up to: 5.9
-Stable tag: 1.0.1
-Requires PHP: 7.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+- Contributors: Hashcrypt Technology
+- Tags: woo-commerce,woo-commerce coupons,checkout coupons,woo-commerce coupons UI
+- Requires at least: 4.7
+- Tested up to: 5.9
+- Stable tag: 1.0.1
+- Requires PHP: 7.0
+- License: GPLv2 or later
+- License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-The WooCommerce Coupon Plugin-HashCoupon is useful for make WooCommerce coupons ui more beautiful and attractive.It will change the traditional look of Woo-commerce Coupons.
+- The WooCommerce Coupon Plugin-HashCoupon is useful for make WooCommerce coupons ui more beautiful and attractive.It will change the traditional look of Woo-commerce Coupons.
 
 == Installation ==
 ### Using The WordPress Dashboard
