@@ -1,0 +1,235 @@
+.hash_container{
+    border-radius: 18px;
+    background-color: rgba(255,255,255,0.8);
+    max-width: 100%;
+    width: 89%;
+    margin-top:20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.hash_main{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.hash_main p{
+    font-size: 20px;
+}
+.title{
+  font-size: 20px;
+  color:#6969b0;
+}
+
+label,.content{
+    font-size: 16px;
+}
+
+label{
+ font-weight: 600;
+}
+
+.hash_whychoose{
+    display:block;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hash_section h1{
+  color:#6969b0;
+}
+.hash_whychoose_container{
+    display: inline-flex;
+}
+
+.hash_whychoose .card{
+    float: left;
+    margin: 10px;
+    border: 0 !important;
+    padding: 40px;
+    box-shadow: rgb(105 105 190 / 52%) 0px 3px 8px;
+    border-radius: 18px;
+    max-width: 350px !important;
+}
+
+#app-cover {
+  display: table;
+  width: 600px;
+  margin: 80px auto;
+  counter-reset: button-counter;
+}
+
+.row {
+  display: table-row;
+}
+
+.toggle-button-cover {
+  display: table-cell;
+  position: relative;
+  width: 200px;
+  height: 140px;
+  box-sizing: border-box;
+}
+
+.button-cover {
+  height: 100px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px -8px #c5d6d6;
+  border-radius: 4px;
+}
+
+.button-cover:before {
+  counter-increment: button-counter;
+  content: counter(button-counter);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #d7e3e3;
+  font-size: 12px;
+  line-height: 1;
+  padding: 5px;
+}
+
+.button-cover,
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  position: relative;
+  top: 50%;
+  width: 74px;
+  height: 36px;
+  margin: -20px auto 0 auto;
+  overflow: hidden;
+  border: 0.5px solid #e3e3e3 !important;
+}
+
+.button.r,
+.button.r .layer {
+  border-radius: 100px;
+}
+
+.button.b2 {
+  border-radius: 2px;
+}
+
+.hash_checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+  height: 30px !important;
+  min-width: 50px !important;
+}
+
+.knobs {
+  z-index: 2;
+}
+
+.layer {
+  width: 100%;
+  background-color: #e4e5e514;  /*#ebf7fc;*/
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+
+ /* Button 14 */
+ #button-14 .knobs:before,
+ #button-14 .knobs:after,
+ #button-14 .knobs span:before,
+ #button-14 .knobs span:after {
+   position: absolute;
+   top: 4px;
+   width: 20px;
+   height: 10px;
+   font-size: 10px;
+   font-weight: bold;
+   text-align: center;
+   line-height: 1;
+   padding: 9px 4px;
+   border-radius: 2px;
+   transition: 0.3s ease all;
+ }
+
+ #button-14 .knobs:before,
+ #button-14 .knobs:after {
+   color: #4e4e4e;
+   z-index: 1;
+ }
+
+ #button-14 .knobs:after {
+   content: "OFF";
+   left: 4px;
+ }
+
+ #button-14 .knobs:before {
+   content: "ON";
+   right: 4px;
+ }
+
+ #button-14 .knobs span {
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+ }
+
+ #button-14 .knobs span:before {
+   left: 4px;
+   top: -28px;
+   background-color: #eb654b;
+ }
+
+ #button-14 .knobs span:after {
+   top: 4px;
+   left: 39px;
+   background-color: #6969b0;
+ }
+
+ #button-14 .knobs span:before,
+ #button-14 .knobs span:after {
+   content: "";
+   width: 23px;
+   z-index: 2;
+ }
+
+ #button-14 .hash_checkbox:checked + .knobs span:before {
+   top: 4px;
+ }
+
+ #button-14 .hash_checkbox:checked + .knobs span:after {
+   top: -28px;
+ }
+
+ #button-14 .hash_checkbox:checked ~ .layer {
+   background-color: #e4e5e514;
+ }
+
+ /*#button-14 .hash_checkbox:checked + .knobs span:before {
+   top: 4px;
+ }
+
+ #button-14 .hash_checkbox:checked + .knobs span:after {
+   top: -28px;
+ }
+
+ #button-14 .hash_checkbox:checked ~ .layer {
+   background-color: #fcebeb;
+ }*/

@@ -1,0 +1,243 @@
+
+#couponModel form.checkout_coupon{
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+#couponModel .checkout_coupon{
+  margin-bottom: 0px;
+}
+.woocommerce-checkout .checkout_coupon.woocommerce-form-coupon {
+    display: block !important;
+}
+.hash_sub{
+    background: #fff;
+    font-size: 14px !important;
+    color: #2ea2cc;
+}
+#couponModel button[name="apply_coupon"]{
+  background-color: transparent !important;
+  border: 1px solid #212121 !important;
+  color: #212121 !important;
+  width: 130px !important;
+  max-width: 130px !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+}
+#couponModel button[name="apply_coupon"]:focus,button[name="apply_coupon"]:active,button[name="apply_coupon"]:hover{
+  background-color: transparent !important;
+  border-color: #212121;
+  color: #212121;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+#couponModel .woocommerce a:focus{
+  outline-color: transparent !important;
+  border-top: none !important;
+  border-bottom: 0 !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: 0 !important;
+}
+
+.hashDisBtn:focus,.hashDisBtn:active,.hashDisBtn:hover{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline-color: transparent !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: 0 !important;
+
+}
+.hashDisBtn{
+  background-color: transparent;
+  border:0 ;
+  padding: 0;
+  color: #6d6d6d;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle !important;
+}
+.btn-close{
+  background-color: transparent !important;
+}
+#couponModel .modal-body{
+  padding: 1rem 4rem;
+}
+#couponModel .modal-body ul{
+  list-style: none;
+  margin-left: 0px;
+  padding: 0px;
+}
+#couponModel .modal-body ul li{
+  list-style: none !important;
+  padding: 20px;
+  margin: 0 0 15px;
+  box-shadow: 0 0 4px 0 #6790984f;
+  position: relative;
+  color: #6d6d6d;
+  border-radius: 10px;
+}
+.couponCode {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 8px;
+}
+.hashCouponName{
+  padding: 6px 25px;
+  background-color: transparent;
+  color: #212121;
+  font-size: 16px;
+  line-height: 30px;
+  border: 2px dotted #212121;
+  border-radius: 10px;
+  max-width: 250px !important;
+  height: 45px !important;
+  max-height: 50px !important;
+  vertical-align: middle !important;
+}
+.couponList a.accordion{
+  color: #212121;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.coupon-view-more{
+padding: 10px 0 0;
+cursor: pointer;
+}
+
+.couponList a.accordion,.couponList a:focus.accordion,.hashDisBtn{
+  outline-color: transparent !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.panel {
+  padding: 0 ;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.panel div{
+  font-size: 17px;
+  line-height: 25px;
+}
+.accordion.active .coupon-view-more::before {
+  content: attr(data-less);
+}
+.accordion .coupon-view-more::before {
+  content: attr(data-more);
+}
+.modal-body {
+  height: 500px;
+  overflow-y: scroll;
+}
+/*
+.modal-body::-webkit-scrollbar-track {
+  border: none;
+  padding: 2px 0;
+  background-color: transparent !important;
+}
+
+.modal-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #e3e3e3;
+  border: none;
+}
+*/
+.modal-body::-webkit-scrollbar {
+    width: 12px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #e8e8e8; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/*.modal-body::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}*/
+
+
+#couponModel .modal-dialog{
+  max-width: 600px !important;
+}
+
+#couponModel .modal-header{
+  display: inline-flex !important; 
+  padding: 20px !important;
+}
+
+#couponModel .modal-title,.btn-close{
+  margin: 10px !important;
+  color: #212121;
+}
+
+.coupon_form_btn{
+    text-align:inherit;
+  }
+
+@media(max-width: 400px){
+
+  .couponCode {
+    display: block !important;
+  }
+  .submitBtn{
+    margin-top: 5px;
+    width: 100%;
+    max-width: 100%;
+    float: none !important;
+  }
+
+  #couponModel button[name="apply_coupon"]{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hashCouponName{
+    text-align: center !important;
+    line-height: 40px;
+    padding: 0;
+  }
+
+}
+
+
+@media(max-width: 767px){
+
+  #couponModel .modal-body{
+        padding: 1rem 1rem !important;
+  }
+
+  .coupon_form_btn{
+    text-align:right;
+  }
+
+}
+
+
